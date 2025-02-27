@@ -16,11 +16,58 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
+
 
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* New section */
+
+ul li {
+  list-style: none;
+  
+ 
+}
+
+a {
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+
+}
+
+.header .right-links, .header .left-links, .footer .left-links, .footer .right-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 20px 0px 20px;
+  
+  
+}
+
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0px 200px 0px;
+  gap: 20px;
+
+}
+
+.footer {
+  background-color: #eeeeee ;
 }
